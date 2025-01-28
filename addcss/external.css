@@ -1,0 +1,61 @@
+html{
+    
+    padding: 20px;
+    font: 1em sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: chocolate;
+    font-style: oblique;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    
+}
+p{
+    color:rgb(239, 159, 54);
+    background-color: maroon;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+}
+ol{
+    font: 1em sans-serif;
+    font-weight: 200;
+    font-variant: small-caps;
+    background-color: beige;
+}
+h2{
+    color: rgb(193, 17, 17);
+    background-color: burlywood;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ul{
+    color: black;
+    font-variant: small-caps;
+    background-color: antiquewhite;
+}
+h3{
+    color: rgb(190, 10, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    background-color: beige;
+    height: 26px;
+    width: 96px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+button:hover{
+    background-color: #C13584;
+    margin-left: 8px;
+    box-shadow:10px, 10px, 10px rgb(0,0,0) ;
+}
+
+img{
+    justify-content: center;
+}
